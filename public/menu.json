@@ -1,0 +1,38 @@
+{
+    "data": {
+        "Gimg": [
+            {
+                "id": "1",
+                "img": "https://wpdemo.zcubethemes.com/qeducato/wp-content/uploads/2023/03/protfolio-img01.jpg"
+            }
+        ],
+        "UpCorse": [
+            {
+                "id": "1",
+                "price": "620",
+                "name": "General English Fluency",
+                "img": "https://language-center.ancorathemes.com/wp-content/uploads/2016/10/pr1.jpg"
+            }
+        ],
+        "Instrac": [
+            {
+                "id": "1",
+                "spacial": "English",
+                "name": "Susan Mathews",
+                "img": "https://language-center.ancorathemes.com/wp-content/uploads/2016/10/team-4-370x370.jpg"
+            }
+        ],
+        "events": [
+            {
+                "id": "1",
+                "name": "Basic UI & UX Design for new development",
+                "image": "https://wpdemo.zcubethemes.com/qeducato/wp-content/uploads/2023/03/evn-img-1.jpg",
+                "date": "10 March 2023",
+                "address": "10/A, NewYork Sydney City",
+                "info_title": "Art & 3D Model Contest 2023",
+                "title_image": "https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/2021/03/ux-researcher-interview.jpg",
+                "info": "The world of search engine optimization is complex and ever-changing, but you can easily understand the basics, and even a small amount of SEO knowledge can make a big difference. Free SEO education is also widely available on the web, including in guides like this! (Woohoo!) This guide is designed to describe all major aspects of SEO, from finding the terms and phrases (keywords) that can generate qualified traffic to your website, to making your site friendly to search engines, to building links and marketing the unique value of your site.Etiam pharetra erat sed fermentum feugiat velit mauris egestas quam ut erat justo."
+            }
+        ]
+    }
+}

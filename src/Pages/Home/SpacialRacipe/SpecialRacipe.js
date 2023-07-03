@@ -5,7 +5,7 @@ import img from "../../../assets/images/underline1.png";
 const SpecialRacipe = () => {
     const [products, setProducts] = useState();
     useEffect(() => {
-        fetch('products.json')
+        fetch('Dishes.json')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
@@ -20,7 +20,7 @@ const SpecialRacipe = () => {
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
                 {
-                    products.map(product => <SpecialRacipeCard
+                    products?.map(product => <SpecialRacipeCard
                         key={product._id}
                         product={product}
                     ></SpecialRacipeCard>)

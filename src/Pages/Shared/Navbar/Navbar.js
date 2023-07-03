@@ -48,8 +48,8 @@ const Navbar = () => {
         //         </div>
         //     </div>
         // </div >
-        <div className='fixed top-10 right-20 bg-opacity-90'>
-            <div className="dropdown dropdown-end">
+        <div className='fixed top-10  right-20 bg-opacity-90'>
+            {/* <div className="dropdown dropdown-end">
                 <label tabIndex={0} className="btn opacity-60 border border-black m-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block  w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg></label>
                 <ul tabIndex={0} className="dropdown-content bg-black bg-opacity-60 text-white z-[1] menu p-2 shadow  rounded-box w-52">
                     <li><div className="flex-1 items-center">
@@ -66,6 +66,32 @@ const Navbar = () => {
                     <li><a>Blog</a></li>
                     <li><a>Contact Us</a></li>
                 </ul>
+            </div> */}
+            <div className="drawer drawer-end">
+                <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
+                <div className="drawer-content">
+                    {/* Page content here */}
+                    <label htmlFor="my-drawer-4" className="drawer-button btn opacity-70 border-black m-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block  w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg></label>
+                </div>
+                <div className="drawer-side">
+                    <label htmlFor="my-drawer-4" className="drawer-overlay"></label>
+                    <ul className="menu p-4 w-72 h-full bg-black bg-opacity-80 text-center text-white">
+                        {/* Sidebar content here */}
+                        <li><div className="flex-1 items-center mx-auto">
+                            <img className='w-48' src={img} alt="" />
+                        </div></li>
+                        <li className='mx-auto'>
+                            <h1><a className="btn btn-ghost normal-case  text-2xl font-bold">La Uncion</a></h1>
+                        </li>
+                        <li className='mx-auto'><Link to="/">Home</Link></li>
+                        <li className='mx-auto'><a>About Us</a></li>
+                        <li className='mx-auto'><a>Special Recipes</a></li>
+                        <li className='mx-auto'><a>Blog</a></li>
+                        <li className='mx-auto'><a>Contact Us</a></li>
+                        <li className='mx-auto'><a>Blog</a></li>
+                        <li className='mx-auto'><a>Contact Us</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     );

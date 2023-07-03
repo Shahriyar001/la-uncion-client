@@ -1,5 +1,5 @@
 import React from 'react';
-import { BiDish, BiSolidDish } from 'react-icons/bi';
+import { BiSolidDish } from 'react-icons/bi';
 
 const SpecialRacipeCard = ({ product }) => {
     const { flex, img, title, details, price } = product;
@@ -16,7 +16,7 @@ const SpecialRacipeCard = ({ product }) => {
         // </div>
         <div className={`card card-side flex-col ${flex}`}>
             <figure><img className='rounded-none m-2 w-80' src={img} alt="Movie" /></figure>
-            <div className="card-body text-center lg:w-1/2">
+            <div className="card-body text-center md:w-1/2 lg:w-1/2">
                 <div className='justify-center mx-auto'>
                     <p className='text-4xl text-center'><BiSolidDish /></p>
                 </div>
@@ -28,6 +28,7 @@ const SpecialRacipeCard = ({ product }) => {
                 </div>
             </div>
         </div>
+        //  http://bunch.asiandevelopers.com/wp/radhuni/#
     );
 };
 
